@@ -5,8 +5,6 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -20,34 +18,8 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</p>
-
-
+![Xidipity GitHub Readme Screenshot](images/screenshot.png)
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -59,156 +31,147 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#dependencies">Dependencies</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#copyright">Copyright</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Xidipity is a high quality WordPress theme with the following characteristics.
+1. satisfying to use
+2. versatile in the creation of content
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+### Satisfying To Use
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+The first requirement is the theme must display well on a variety of devices. This is known as responsive. Xidipity is designed to ensure a satisfying user experience on mobile, tablet, and desktop devices.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+The second requirement is readability. Xidipity uses industry standard Google fonts. Much of the text is styed with the font family Roboto with the paragraph headers h1-h4 styled with Roboto Slab. Kaushan script is used to style the blog title.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+The third requirement is pleasing esthetics. This is satisfied by the use of appropriately selected and matched colors. The design leverages a palette of base, primary, and secondary hues matched using tools from Adobe.
+
+The last requirement is performance. This is satisfied by using the latest in web technologies. Much of the theme's design leverages the W3C Flexible Box Module (flexbox) and to further boost performance, it is suggested a plugin like Native Lazyload by Google be installed to reduce image load times. 
+
+### Versatile in the Creation of Content
+
+Xidipity uses an enhanced version of the classic editor. The benefit of this decision is the editor utilizes an industry standard interface familiar to all who have used a word processor such as Microsoft Word or Google Docs. The new editor comes with twenty five toolbar selections with over ninety options.
+
+**Options include but are not limited to:**
+
+- Fonts
+  - Roboto (sans)
+  - Roboto Mono (mono)
+  - Roboto Slab (serif)
+  - Kalam (cursive)
+  - Kaushan Script (fantasy)
+- Text Style
+  - 8 styles
+- Font size
+  - 13 sizes
+- Text weight
+  - 9 weights
+- Text emphasis
+  - 3 styles
+- Text format
+  - 9 formats
+- Duplicate/paint style
+- Apply text color/background color
+  - 90 preset colors
+  - custom
+- Clear text format
+- Apply text link
+- Apply text alignment
+  - 7 alignments
+- Add ordered list
+  - 5 bullet styles
+- Add unordered list
+  - 5 bullet styles
+- Miscellaneous options
+  - 9 options
+- Add vertical spacing
+  - 7 spacing choices
+- Add horizontal rule
+  - 8 preset styles
+  - custom
+- Add table
+- Add multi coloums
+  - 6 options
+- Add html template
+- Display line numbered code snippets
+- Add icon
+- Add video
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [PHP](https://www.php.net/get-involved.php)
+* [CSS](https://www.w3.org/Style/CSS/specs.en.html)
+* [JavaScript](https://www.w3.org/wiki/JavaScript_best_practices)
 
+## Dependencies
 
+* [Classic Editor](https://wordpress.org/plugins/classic-editor/) plugin by WordPress
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Download the latest release to your device.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
+<!-- Installation -->
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. In the WordPress admin panel, go to Appearance -> Themes and click 'Add New'
+2. Click 'Upload Theme'
+3. Click 'Choose File'
+4. Select the Xidipity theme download zip file
+5. Click 'Install Now'
+6. Upon completion, click 'activate' to use
+7. In the WordPress admin panel, go to Plugins and click 'Add New'
+8. Search for 'Classic Editor', install, activate
+    - In the WordPress admin panel, go to Settings -> Writing
+    - Make classic editor the default
+9. Configure as desired
+10. Create Something Great :)
 
+<!-- Copyright -->
+## Copyright
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
+Xidipity WordPress Theme, Copyright 2018 - 2020 John Baer
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Xidipity is distributed under the terms of the GNU GPL.
 
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+**Twitter**
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+[Xidipity](https://twitter.com/xidipity)
 
+**Email**
 
+[staff@xidipity.com](mailto:staff@xidipity.com)
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+**Project Link**
 
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[Xidipity WordPress Theme](https://github.com/WpThemeDev/xidipity)
